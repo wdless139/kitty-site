@@ -1,0 +1,26 @@
+.header {
+    color: coral;
+}
+
+.header h1 {
+    color: darkgreen;
+}
+
+.content img {
+    max-width: 400px;
+    transition: all 1s ease;
+    border: lightpink 6px solid;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
